@@ -31,8 +31,10 @@ function degshook(text,ongak)
               ]
             }
         ]]
-    end
+end		
 end
+end
+
 
 startT = os.time()
 function SecondTT(seconds)
