@@ -18,7 +18,7 @@ function degshook(text,ongak)
               "embeds": [
                 {   
                     "title": "Degs ROTATION LOG",
-    				"description": "**<:jawir:1137548164472242247> | Bot Name : **]]..bot:getLocal().name..[[\n**<a:wifi:1069253991327862814> | Bot Status : **]]..ongak..[[ (]]..boy:getMs()..[[)\n\n**<:gems:994218103032520724> | Bot Gems : **]]..bot:getLocal().gems..[[\n**<:emoji_3:1137558475275255808> | Bot Level : **]]..bot:getLocal().level..[[\n**<:slotbp:1137570524323643484> | Bot Slot : **]]..bot:getLocal().slot..[[\n\n**<:wl:1129693761790820433> | Current World : **]]..bot:getCurrentWorld():upper()..[[\n**<:polisil:1137565897956012073> | Fossil : **]]..posil_total..[[\n\n**UP TIME : **]]..SecondTT(os.difftime(os.time(), startT)..[[",
+    				"description": "**<:jawir:1137548164472242247> | Bot Name : **]]..bot:getLocal().name..[[\n**<a:wifi:1069253991327862814> | Bot Status : **]]..ongak..[[ ( ]]..boy:getMs()..[[ ) \n\n**<:gems:994218103032520724> | Bot Gems : **]]..bot:getLocal().gems..[[\n**<:emoji_3:1137558475275255808> | Bot Level : **]]..bot:getLocal().level..[[\n**<:slotbp:1137570524323643484> | Bot Slot : **]]..bot:getLocal().slot..[[\n\n**<:wl:1129693761790820433> | Current World : **]]..bot:getCurrentWorld():upper()..[[\n**<:polisil:1137565897956012073> | Fossil : **]]..posil_total..[[\n\n**UP TIME : **]]..SecondTT(os.difftime(os.time(), startT)..[[",
                     "color": "]] .. math.random(0, 16777215) .. [[",
                   "footer": {
                     "text": "Time Up | ]]..(os.date("!%a %b %d, %Y at %I:%M %p", os.time() + 7 * 60 * 60))..[[",
