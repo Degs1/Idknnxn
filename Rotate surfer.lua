@@ -31,7 +31,13 @@ function degshook(text,ongak)
               ]
             }
         ]]
-end		
+x = httpReq(RequestINFO)
+    if x.success then
+        --log("Response Body : ",x.body)
+        --log("Response Http Status Code : ",x.httpCode)
+    else
+        --log("Request Failed Error Msg : ",x.failInfo)
+    end		
 end
 end
 
